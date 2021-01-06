@@ -26,7 +26,7 @@ const embed = new Discord.MessageEmbed()
 
 
 
-
+/////////////////////////ROLES/////////////////////////
 
 client.on('message', async message => {
     if (message.content.startsWith(`${prefix}reactionrole`)){
@@ -73,6 +73,14 @@ client.on('message', async (message) => {
 
 
 })
+
+/////////////////////////CLEAR/////////////////////////
+
+
+
+
+
+
 
 
 client.login(process.env.TOKEN)
